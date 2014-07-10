@@ -25,7 +25,7 @@
                     <argLine>-Xmx1024m -XX:PermSize=256m -XX:MaxPermSize=512m</argLine>
                     <parallel>false</parallel>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/testng-server-mgt.xml</suiteXmlFile>
+                        <!--suiteXmlFile>src/test/resources/testng-server-mgt.xml</suiteXmlFile-->
                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
 
@@ -243,6 +243,10 @@
         <dependency>
             <groupId>org.wso2.carbon</groupId>
             <artifactId>org.wso2.carbon.integration.common.tests</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.wso2.carbon.automation</groupId>
+            <artifactId>org.wso2.carbon.automation.api</artifactId>
         </dependency>
     </dependencies>
 </project>
